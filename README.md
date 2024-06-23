@@ -4,44 +4,39 @@ This project develops a machine learning-based predictive model for detecting MP
 # Background
 Detailing the significance of the project in the context of the recent global outbreaks and the need for cost-effective, rapid diagnostic methods.
 
-# Project Workflow
+# Project Scope and Methodology
 ## Task 1: Domain Understanding - Classification
-- Objective: Focus solely on classification modeling.
-- Variable Selection:
-- Retained: Systemic Illness, Sore Throat, Rectal Pain, Oral Lesions, HIV Infection, Red blood cells, White blood cells, Age, Health Insurance.
-- Dropped: Test ID, Home ownership, Month of Birth, Sexually Transmitted Infection.
+- Objective: Identify which data attributes to retain or drop for effective classification modeling.
+- Approach: Analyzed each variable to determine its relevance and logical applicability to the MPOX classes.
+- Outcome: Developed a streamlined dataset focusing on the most impactful attributes for predicting MPOX.
 ## Task 2: Data Understanding
-- Statistical Analysis: Basic statistical descriptions and distribution plots for retained variables.
-- Visual Outputs: Screenshots of the class variable distributions (included in the repository).
+- Objective: Perform exploratory data analysis on retained variables.
+- Approach: Generated statistical summaries and visualizations to understand data distributions and relationships.
+- Outcome: Insights from this task informed the preprocessing steps and highlighted potential predictive variables.
 ## Task 3: Data Preparation
-- Data Issues & Solutions:
-- Organized findings of data quality issues and implemented corrections.
-- Example: Variable "Red blood cells" had outliers; solutions included applying normalization techniques.
-- Implementation Evidence: Screenshots before and after data corrections.
-## Task 4: Modelling
-- Selected Algorithms: Naïve Bayes, Decision Tree, Logistic Regression, and SVM with RBF kernel.
-- Algorithm Details:
--- Type (Parametric/Non-parametric), learnable parameters, hyperparameters considered for tuning.
-- Model Building:
--- Features used, training-test split justification, and ensuring consistent labels ratio across datasets.
+- Objective: Clean and transform the dataset to prepare it for modeling.
+- Approach: Identified and resolved issues in the dataset using Python for data cleaning and feature engineering.
+- Outcome: A cleaned and optimized dataset ready for predictive modeling, with documented pre and post-transformation states.
+## Task 4: Modeling
+- Objective: Build and compare multiple classification models using different algorithms.
+- Approach: Selected Naïve Bayes, Decision Trees, Logistic Regression, and SVM for their varied characteristics. Adjusted model hyperparameters and assessed their impact.
+- Outcome: Each model was evaluated based on its ability to predict MPOX, focusing on maximizing the detection of positive cases.
 ## Task 5: Evaluation
-- Success Criteria: Focus on high recall to ensure positive cases are not missed.
-- Model Evaluation:
--- Test confusion matrices for each model.
--- Selection of relevant evaluation metrics based on success criteria (e.g., Recall, F-Measure).
-- Best Model Selection:
--- Discussion on which models best meet the healthcare professionals' needs.
-- Hyperparameter tuning results and performance comparison.
-# Enhancements
-- Ensemble Learning: Justification and results from combining learners in a voting ensemble.
-- Model Critique & Limitations: Analysis of the best model's performance, limitations, and potential ethical concerns.
-# Technologies Used
-- Python, Scikit-Learn, TensorFlow, Pandas, NumPy, Matplotlib, Seaborn.
-- Results
-- Summary of the model's performance, including key statistics and visualizations demonstrating the efficacy of the predictive model.
+- Objective: Evaluate model performance against specific success criteria.
+- Approach: Used metrics like Recall, Precision, and F-Measure to assess each model's ability to identify MPOX positives effectively.
+- Outcome: Identified the best-performing model(s) based on the ability to predict MPOX positive cases, aligning with the healthcare professionals' needs.
+# Results and Findings
+- Best Model: Decision on the best model based on recall, precision, and overall accuracy.
+- Performance Enhancement: Discussion on hyperparameter tuning and its effects on model performance.
+- Ensemble Learning: Explored the potential of combining models to improve prediction accuracy.
+# Future Work
+Suggestions for future enhancements include integrating more diverse data, implementing advanced machine learning techniques, and continuous model training with new data.
 
 # Usage
-- Instructions on how to set up, install dependencies, and run the project.
+Instructions on setting up the project, installing dependencies, and running the models are provided to ensure reproducibility.
 
-# Challenges and Future Work
-- Discussion of challenges faced, learnings from the project, and potential areas for further development.
+# Challenges and Learnings
+Discussed the complexities of dealing with imbalanced data, the importance of feature selection, and the impact of data quality on predictive accuracy.
+
+# Ethical Considerations
+- Addressed potential ethical concerns regarding the deployment of AI in healthcare diagnostics, emphasizing transparency and fairness.
