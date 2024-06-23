@@ -5,7 +5,7 @@ This project develops a machine learning-based predictive model for detecting MP
 Detailing the significance of the project in the context of the recent global outbreaks and the need for cost-effective, rapid diagnostic methods.
 
 # Dataset Description
-The dataset used for the MPOX virus prediction model consists of 18,849 rows, with each row representing a patient's test and health-related data. The dataset is structured with the following columns:
+The dataset used for the MPOX virus prediction model consists of 18 features (columns) and 18,849 rows, with each row representing a patient's test and health-related data. The dataset is structured with the following columns:
 
 - Test ID: Unique identifier for each test sample.
 - Systemic Illness: Indicators of systemic illness symptoms.
