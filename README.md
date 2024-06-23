@@ -4,6 +4,29 @@ This project develops a machine learning-based predictive model for detecting MP
 # Background
 Detailing the significance of the project in the context of the recent global outbreaks and the need for cost-effective, rapid diagnostic methods.
 
+# Dataset Description
+The dataset used for the MPOX virus prediction model consists of 18,849 rows, with each row representing a patient's test and health-related data. The dataset is structured with the following columns:
+
+- Test ID: Unique identifier for each test sample.
+- Systemic Illness: Indicators of systemic illness symptoms.
+- Encoded Systemic Illness: Numerically encoded systemic illness symptoms for model processing.
+- Rectal Pain: Presence of rectal pain (True/False).
+- Sore Throat: Presence of sore throat (True/False).
+- Penile Oedema: Presence of penile oedema (True/False).
+- Oral Lesions: Presence of oral lesions (True/False).
+- Solitary Lesion: Presence of solitary lesion (True/False).
+- Swollen Tonsils: Presence of swollen tonsils (True/False).
+- HIV Infection: HIV infection status (True/False).
+- Red blood cells count: Count of red blood cells.
+- White blood cells count: Count of white blood cells.
+- Home ownership: Indicates if the patient owns a home (1: Yes, 0: No).
+- Age: Age of the patient.
+- Month of Birth: Birth month of the patient.
+- Health Insurance: Indicates if the patient has private health insurance (1: Yes, 0: No).
+- Sexually Transmitted Infection: History of sexually transmitted infections.
+- MPOX PCR Result: Result of the MPOX PCR test (Positive/Negative).
+The dataset labels each instance as "Negative" or "Positive," indicating whether a patient is infected with the MPOX virus. This data is essential for training the predictive model to accurately classify potential MPOX infections based on the symptoms and other health indicators provided.
+
 # Project Scope and Methodology
 ## Task 1: Domain Understanding - Classification
 - Objective: Identify which data attributes to retain or drop for effective classification modeling.
