@@ -63,4 +63,4 @@ Instructions on setting up the project, installing dependencies, and running the
 Discussed the complexities of dealing with imbalanced data, the importance of feature selection, and the impact of data quality on predictive accuracy.
 
 # Ethical Considerations
-- Addressed potential ethical concerns regarding the deployment of AI in healthcare diagnostics, emphasizing transparency and fairness.
+Addressed potential ethical concerns regarding the deployment of AI in healthcare diagnostics, emphasizing transparency and fairness.
