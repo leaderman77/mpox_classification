@@ -25,6 +25,7 @@ The dataset used for the MPOX virus prediction model consists of 18,849 rows, wi
 - Health Insurance: Indicates if the patient has private health insurance (1: Yes, 0: No).
 - Sexually Transmitted Infection: History of sexually transmitted infections.
 - MPOX PCR Result: Result of the MPOX PCR test (Positive/Negative).
+
 The dataset labels each instance as "Negative" or "Positive," indicating whether a patient is infected with the MPOX virus. This data is essential for training the predictive model to accurately classify potential MPOX infections based on the symptoms and other health indicators provided.
 
 # Project Scope and Methodology
